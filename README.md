@@ -8,13 +8,18 @@ It's a simulator of a DC circuit with 10V of the source, which contains 2 variab
 
 
 
-## Contens
-The whole module contains 4 classes as following:
+## Contents
+- circuitsimulator.py : contains 4 classes for simulation as following:
+  - CircuitSimulator: this class starts (restarts) the simulation and provides actual values of voltmeter and ammeter.
+  - Ohmmeter: calculates the resistance of RL (fixed resistance) by registering itself to Voltmeter and Ammeter classes. Also, this class contains a method that calculates the last 2 seconds' rolling average of RL;
+  - Voltmeter: reads and prints voltage at Voltmeter at defined intervals;
+  - Ammeter: reads and prints current at Ammeter at defined intervals;
 
-- CircuitSimulator: this class starts (restarts) the simulation and provides actual values of voltmeter and ammeter.
-- Ohmmeter: calculates the resistance of RL (fixed resistance) by registering itself to Voltmeter and Ammeter classes. Also, this class contains a method that calculates the last 2 seconds' rolling average of RL;
-- Voltmeter: reads and prints voltage at Voltmeter at defined intervals;
-- Ammeter: reads and prints current at Ammeter at defined intervals;
+- simulator_applicaiton.py: imports all classes and executes the simulation process
+
+## HOW TO RUN
+
+Simply execute the simulator_application, simulator starts with printing voltage and current, resistance values with specified time intervals.
 
 
 ## Limitations:
