@@ -1,4 +1,4 @@
-# circuit_simulator
+# CircuitSimulator
 It's a simulator of a DC circuit with 10V of the source, which contains 2 variable resistors and one fixed resistor. There is an ammeter after the fixed resistor and a voltmeter to check the potential change before and after the fixed resistor. Variable resistors are inversely proportional to each other, i.e. at 0 seconds R1=0 and R2=100, but when the time reached 10 seconds R1=100 and R2=0. For more details, please refer to the following circuit figure:
 
 ![image](https://user-images.githubusercontent.com/56832126/132469493-8dc2ec49-6b53-4611-b847-0f87d96e55bf.png)
